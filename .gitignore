@@ -1,7 +1,7 @@
 # Project exclude paths
-target
-.gauge
-.idea
-env
-logs
-reports
+target/
+.gauge/
+.idea/
+env/
+logs/
+reports/

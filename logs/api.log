@@ -10736,3 +10736,20 @@
 04-04-2022 14:02:45.506 [Gauge] [INFO] Spec file removed: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\example.spec
 04-04-2022 14:02:45.510 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
 04-04-2022 14:02:45.518 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
+04-04-2022 14:19:00.860 [Gauge] [INFO] Spec file removed: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
+04-04-2022 14:19:00.861 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\example.spec
+04-04-2022 14:19:00.861 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\example.spec
+04-04-2022 14:23:10.145 [Gauge] [INFO] Spec file removed: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\example.spec
+04-04-2022 14:23:10.145 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
+04-04-2022 14:23:10.146 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
+04-04-2022 14:25:17.344 [Gauge] [INFO] Watching directory: C:\Users\testinium\IdeaProjects\AppiumOdev\specs
+04-04-2022 14:25:17.345 [Gauge] [DEBUG] Found 5 files
+04-04-2022 14:25:17.347 [Gauge] [INFO] Initializing concepts cache with 4 concepts
+04-04-2022 14:25:17.347 [Gauge] [DEBUG] Adding concepts from C:\Users\testinium\IdeaProjects\AppiumOdev\specs\KategoriAc.cpt
+04-04-2022 14:25:17.347 [Gauge] [DEBUG] Adding concepts from C:\Users\testinium\IdeaProjects\AppiumOdev\specs\Login.cpt
+04-04-2022 14:25:17.347 [Gauge] [DEBUG] Adding concepts from C:\Users\testinium\IdeaProjects\AppiumOdev\specs\RastgeleUrun.cpt
+04-04-2022 14:25:17.347 [Gauge] [DEBUG] Adding concepts from C:\Users\testinium\IdeaProjects\AppiumOdev\specs\UygulamaAc.cpt
+04-04-2022 14:25:17.347 [Gauge] [INFO] Initializing specs cache with 1 specs
+04-04-2022 14:25:17.347 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IdeaProjects\AppiumOdev\specs\GenelTest.spec
+04-04-2022 14:25:17.347 [Gauge] [INFO] Initializing steps cache with 5 steps
+04-04-2022 14:25:17.348 [Gauge] [INFO] Gauge daemon initialized and listening on port: 52193
