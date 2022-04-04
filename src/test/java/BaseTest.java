@@ -61,7 +61,7 @@ public class BaseTest {
             logger.info("Driver terminated");
     }
     public void waitUntilElementVisible(By element) {
-        WebDriverWait wait = new WebDriverWait(appiumDriver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        WebDriverWait wait = new WebDriverWait(appiumDriver, 20);//20 saniye içinde uygulamaya ait element görünme kontrolü
+        wait.until(ExpectedConditions.elementToBeClickable(element));//eğer tıklanabilirse tılanması
 }
 }

@@ -1,6 +1,6 @@
-
+//Locatarleri bir enum classından cektim.
 public enum LocatorP {
-        SKIPPUPDATE("//*[@resource-id='com.ozdilek.ozdilekteyim:id/btnRemindLater']"),
+        //SKIPPUPDATE("//*[@resource-id='com.ozdilek.ozdilekteyim:id/btnRemindLater']"),//guncel olmayan versiyonların atlanması
         HOMEPAGE_CHECK("//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']"),
         ALISVERISE_BASLA("//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']"),
         SHOPPINGPAGECHECK("//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']"),
@@ -17,7 +17,7 @@ public enum LocatorP {
         INSERTPASSWORD("//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword'"),
         ADDCART("//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddCartBtn']"),;
 
-        private String locators;
+        private String locators;//Encapsulation wiht get and set
         LocatorP(String select) {
                 this.locators = select;
         }

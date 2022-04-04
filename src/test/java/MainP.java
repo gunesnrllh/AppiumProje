@@ -20,9 +20,9 @@ public class MainP extends BaseTest {
         try {
             waitUntilElementVisible(By.id(LocatorP.HOMEPAGE_CHECK.getLocator()));
             boolean isDisplayed = appiumDriver.findElement(By.id(LocatorP.HOMEPAGE_CHECK.getLocator())).isDisplayed();
-            if (isDisplayed) {
+            if (isDisplayed) {//ekranda görünme fonk
                 String text = appiumDriver.findElement(By.id(LocatorP.ALISVERISE_BASLA.getLocator())).getText();
-                Assert.assertEquals("ALIŞVERİŞE BAŞLA", text, "Anasayfa acildi");
+                Assert.assertEquals("ALIŞVERİŞE BAŞLA", text, "Anasayfa acildi");//Ekranda alışverişe başla yazıyorsa alısverıs sekmesı acılmıstır
             }
         } catch (Exception e) {
             logger.info("Uygulama acilirken bir hata olustu");
@@ -44,7 +44,7 @@ public class MainP extends BaseTest {
         try {
             waitUntilElementVisible(By.xpath(LocatorP.SHOPPINGPAGECHECK.getLocator()));
             String text = appiumDriver.findElement(By.xpath(LocatorP.SHOPPINGPAGECHECK.getLocator())).getText();
-            Assert.assertEquals("Ev Tekstili",text,"alisveris sekmesi acildi");
+            Assert.assertEquals("Erkek",text,"alisveris sekmesi acildi");//Eger ekranda Erkek yazısı görüldüyse alışveris sayfası acılmıstır
         } catch (Exception e) {
             logger.info("alisveris sayfasi acilirken hata oldu");
         }

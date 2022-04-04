@@ -36,5 +36,7 @@ public class Movements extends BaseTest{
   .moveTo({x: 720: y: 573})
   .release()
 
+  Burada çalısan bır fonk yazamadım record hareketlerini yazdım
+
 }*/
 }}

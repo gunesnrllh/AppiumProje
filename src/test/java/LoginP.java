@@ -5,7 +5,7 @@ public class LoginP extends BaseTest{
     @Step("giris alanına <email> ve <password> yazma")
     public void insertLoginInformation(String email, String password) {
         try {
-            waitUntilElementVisible(By.id(LocatorP.LOGINPAGE.getLocator()));
+            waitUntilElementVisible(By.id(LocatorP.LOGINPAGE.getLocator()));//login page görünme kontrolü
             appiumDriver.findElement(By.id(LocatorP.INSERTEMAIL.getLocator())).sendKeys(email);
             appiumDriver.findElement(By.id(LocatorP.INSERTPASSWORD.getLocator())).sendKeys(password);
             logger.info("login bilgileri yazildi");

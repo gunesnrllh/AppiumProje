@@ -3,7 +3,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 
 public class ProductDetailsP extends BaseTest{
-    protected static String productName;
 
 
     @Step("Ürün bedeni secme")
